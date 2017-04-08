@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA801E99476400B284D8 /* AppDelegate.swift */; };
 		FDB7CA831E99476400B284D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA821E99476400B284D8 /* ViewController.swift */; };
-		FDB7CA861E99476400B284D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA841E99476400B284D8 /* Main.storyboard */; };
 		FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA871E99476400B284D8 /* Assets.xcassets */; };
-		FDB7CA8B1E99476400B284D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA891E99476400B284D8 /* LaunchScreen.storyboard */; };
 		FDB7CA961E99476400B284D8 /* CatBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA951E99476400B284D8 /* CatBounceTests.swift */; };
 		FDB7CAA11E99476400B284D8 /* CatBounceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CAA01E99476400B284D8 /* CatBounceUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		FDB7CA7D1E99476400B284D8 /* CatBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB7CA801E99476400B284D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB7CA821E99476400B284D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDB7CA851E99476400B284D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDB7CA871E99476400B284D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FDB7CA8A1E99476400B284D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB7CA8C1E99476400B284D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB7CA911E99476400B284D8 /* CatBounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatBounceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB7CA951E99476400B284D8 /* CatBounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceTests.swift; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				FDB7CA801E99476400B284D8 /* AppDelegate.swift */,
 				FDB7CA821E99476400B284D8 /* ViewController.swift */,
-				FDB7CA841E99476400B284D8 /* Main.storyboard */,
 				FDB7CA871E99476400B284D8 /* Assets.xcassets */,
-				FDB7CA891E99476400B284D8 /* LaunchScreen.storyboard */,
 				FDB7CA8C1E99476400B284D8 /* Info.plist */,
 			);
 			path = CatBounce;
@@ -232,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB7CA8B1E99476400B284D8 /* LaunchScreen.storyboard in Resources */,
 				FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */,
-				FDB7CA861E99476400B284D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +286,6 @@
 			targetProxy = FDB7CA9D1E99476400B284D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FDB7CA841E99476400B284D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDB7CA851E99476400B284D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FDB7CA891E99476400B284D8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDB7CA8A1E99476400B284D8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FDB7CAA31E99476400B284D8 /* Debug */ = {
