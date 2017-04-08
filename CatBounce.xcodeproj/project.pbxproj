@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA801E99476400B284D8 /* AppDelegate.swift */; };
+		FDB7CA831E99476400B284D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA821E99476400B284D8 /* ViewController.swift */; };
+		FDB7CA861E99476400B284D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA841E99476400B284D8 /* Main.storyboard */; };
+		FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA871E99476400B284D8 /* Assets.xcassets */; };
+		FDB7CA8B1E99476400B284D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA891E99476400B284D8 /* LaunchScreen.storyboard */; };
+		FDB7CA961E99476400B284D8 /* CatBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA951E99476400B284D8 /* CatBounceTests.swift */; };
+		FDB7CAA11E99476400B284D8 /* CatBounceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CAA01E99476400B284D8 /* CatBounceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB7CA921E99476400B284D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB7CA751E99476400B284D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB7CA7C1E99476400B284D8;
+			remoteInfo = CatBounce;
+		};
+		FDB7CA9D1E99476400B284D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB7CA751E99476400B284D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB7CA7C1E99476400B284D8;
+			remoteInfo = CatBounce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDB7CA7D1E99476400B284D8 /* CatBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB7CA801E99476400B284D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB7CA821E99476400B284D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDB7CA851E99476400B284D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB7CA871E99476400B284D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB7CA8A1E99476400B284D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB7CA8C1E99476400B284D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB7CA911E99476400B284D8 /* CatBounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatBounceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB7CA951E99476400B284D8 /* CatBounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceTests.swift; sourceTree = "<group>"; };
+		FDB7CA971E99476400B284D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB7CA9C1E99476400B284D8 /* CatBounceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatBounceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB7CAA01E99476400B284D8 /* CatBounceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceUITests.swift; sourceTree = "<group>"; };
+		FDB7CAA21E99476400B284D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB7CA7A1E99476400B284D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB7CA8E1E99476400B284D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB7CA991E99476400B284D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB7CA741E99476400B284D8 = {
+			isa = PBXGroup;
+			children = (
+				FDB7CA7F1E99476400B284D8 /* CatBounce */,
+				FDB7CA941E99476400B284D8 /* CatBounceTests */,
+				FDB7CA9F1E99476400B284D8 /* CatBounceUITests */,
+				FDB7CA7E1E99476400B284D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB7CA7E1E99476400B284D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7CA7D1E99476400B284D8 /* CatBounce.app */,
+				FDB7CA911E99476400B284D8 /* CatBounceTests.xctest */,
+				FDB7CA9C1E99476400B284D8 /* CatBounceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB7CA7F1E99476400B284D8 /* CatBounce */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7CA801E99476400B284D8 /* AppDelegate.swift */,
+				FDB7CA821E99476400B284D8 /* ViewController.swift */,
+				FDB7CA841E99476400B284D8 /* Main.storyboard */,
+				FDB7CA871E99476400B284D8 /* Assets.xcassets */,
+				FDB7CA891E99476400B284D8 /* LaunchScreen.storyboard */,
+				FDB7CA8C1E99476400B284D8 /* Info.plist */,
+			);
+			path = CatBounce;
+			sourceTree = "<group>";
+		};
+		FDB7CA941E99476400B284D8 /* CatBounceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7CA951E99476400B284D8 /* CatBounceTests.swift */,
+				FDB7CA971E99476400B284D8 /* Info.plist */,
+			);
+			path = CatBounceTests;
+			sourceTree = "<group>";
+		};
+		FDB7CA9F1E99476400B284D8 /* CatBounceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7CAA01E99476400B284D8 /* CatBounceUITests.swift */,
+				FDB7CAA21E99476400B284D8 /* Info.plist */,
+			);
+			path = CatBounceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB7CA7C1E99476400B284D8 /* CatBounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB7CAA51E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounce" */;
+			buildPhases = (
+				FDB7CA791E99476400B284D8 /* Sources */,
+				FDB7CA7A1E99476400B284D8 /* Frameworks */,
+				FDB7CA7B1E99476400B284D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatBounce;
+			productName = CatBounce;
+			productReference = FDB7CA7D1E99476400B284D8 /* CatBounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB7CA901E99476400B284D8 /* CatBounceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB7CAA81E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceTests" */;
+			buildPhases = (
+				FDB7CA8D1E99476400B284D8 /* Sources */,
+				FDB7CA8E1E99476400B284D8 /* Frameworks */,
+				FDB7CA8F1E99476400B284D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB7CA931E99476400B284D8 /* PBXTargetDependency */,
+			);
+			name = CatBounceTests;
+			productName = CatBounceTests;
+			productReference = FDB7CA911E99476400B284D8 /* CatBounceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDB7CA9B1E99476400B284D8 /* CatBounceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB7CAAB1E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceUITests" */;
+			buildPhases = (
+				FDB7CA981E99476400B284D8 /* Sources */,
+				FDB7CA991E99476400B284D8 /* Frameworks */,
+				FDB7CA9A1E99476400B284D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB7CA9E1E99476400B284D8 /* PBXTargetDependency */,
+			);
+			name = CatBounceUITests;
+			productName = CatBounceUITests;
+			productReference = FDB7CA9C1E99476400B284D8 /* CatBounceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB7CA751E99476400B284D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tom Dolan";
+				TargetAttributes = {
+					FDB7CA7C1E99476400B284D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FDB7CA901E99476400B284D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB7CA7C1E99476400B284D8;
+					};
+					FDB7CA9B1E99476400B284D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB7CA7C1E99476400B284D8;
+					};
+				};
+			};
+			buildConfigurationList = FDB7CA781E99476400B284D8 /* Build configuration list for PBXProject "CatBounce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB7CA741E99476400B284D8;
+			productRefGroup = FDB7CA7E1E99476400B284D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB7CA7C1E99476400B284D8 /* CatBounce */,
+				FDB7CA901E99476400B284D8 /* CatBounceTests */,
+				FDB7CA9B1E99476400B284D8 /* CatBounceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB7CA7B1E99476400B284D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7CA8B1E99476400B284D8 /* LaunchScreen.storyboard in Resources */,
+				FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */,
+				FDB7CA861E99476400B284D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB7CA8F1E99476400B284D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB7CA9A1E99476400B284D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB7CA791E99476400B284D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7CA831E99476400B284D8 /* ViewController.swift in Sources */,
+				FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB7CA8D1E99476400B284D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7CA961E99476400B284D8 /* CatBounceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB7CA981E99476400B284D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7CAA11E99476400B284D8 /* CatBounceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB7CA931E99476400B284D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB7CA7C1E99476400B284D8 /* CatBounce */;
+			targetProxy = FDB7CA921E99476400B284D8 /* PBXContainerItemProxy */;
+		};
+		FDB7CA9E1E99476400B284D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB7CA7C1E99476400B284D8 /* CatBounce */;
+			targetProxy = FDB7CA9D1E99476400B284D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB7CA841E99476400B284D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB7CA851E99476400B284D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB7CA891E99476400B284D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB7CA8A1E99476400B284D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB7CAA31E99476400B284D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB7CAA41E99476400B284D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB7CAA61E99476400B284D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FDB7CAA71E99476400B284D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FDB7CAA91E99476400B284D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CatBounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatBounce.app/CatBounce";
+			};
+			name = Debug;
+		};
+		FDB7CAAA1E99476400B284D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CatBounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatBounce.app/CatBounce";
+			};
+			name = Release;
+		};
+		FDB7CAAC1E99476400B284D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CatBounceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CatBounce;
+			};
+			name = Debug;
+		};
+		FDB7CAAD1E99476400B284D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CatBounceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CatBounce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB7CA781E99476400B284D8 /* Build configuration list for PBXProject "CatBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB7CAA31E99476400B284D8 /* Debug */,
+				FDB7CAA41E99476400B284D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB7CAA51E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB7CAA61E99476400B284D8 /* Debug */,
+				FDB7CAA71E99476400B284D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDB7CAA81E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB7CAA91E99476400B284D8 /* Debug */,
+				FDB7CAAA1E99476400B284D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDB7CAAB1E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB7CAAC1E99476400B284D8 /* Debug */,
+				FDB7CAAD1E99476400B284D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB7CA751E99476400B284D8 /* Project object */;
+}
