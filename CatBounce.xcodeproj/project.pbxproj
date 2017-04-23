@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD171BB31EAD0F5600D9D53E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD171BAB1EAD0F5600D9D53E /* ALView+PureLayout.m */; };
+		FD171BB41EAD0F5600D9D53E /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD171BAD1EAD0F5600D9D53E /* NSArray+PureLayout.m */; };
+		FD171BB51EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD171BAF1EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.m */; };
 		FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA801E99476400B284D8 /* AppDelegate.swift */; };
 		FDB7CA831E99476400B284D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA821E99476400B284D8 /* ViewController.swift */; };
 		FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA871E99476400B284D8 /* Assets.xcassets */; };
@@ -32,6 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD171BAA1EAD0F5600D9D53E /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		FD171BAB1EAD0F5600D9D53E /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		FD171BAC1EAD0F5600D9D53E /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		FD171BAD1EAD0F5600D9D53E /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		FD171BAE1EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		FD171BAF1EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		FD171BB01EAD0F5600D9D53E /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		FD171BB11EAD0F5600D9D53E /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		FD171BB21EAD0F5600D9D53E /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		FD171BBB1EAD132900D9D53E /* CatBounce-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatBounce-Bridging-Header.h"; sourceTree = "<group>"; };
 		FDB7CA7D1E99476400B284D8 /* CatBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB7CA801E99476400B284D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB7CA821E99476400B284D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,9 +83,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD171BA91EAD0F5600D9D53E /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FD171BAA1EAD0F5600D9D53E /* ALView+PureLayout.h */,
+				FD171BAB1EAD0F5600D9D53E /* ALView+PureLayout.m */,
+				FD171BAC1EAD0F5600D9D53E /* NSArray+PureLayout.h */,
+				FD171BAD1EAD0F5600D9D53E /* NSArray+PureLayout.m */,
+				FD171BAE1EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.h */,
+				FD171BAF1EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.m */,
+				FD171BB01EAD0F5600D9D53E /* PureLayout+Internal.h */,
+				FD171BB11EAD0F5600D9D53E /* PureLayout.h */,
+				FD171BB21EAD0F5600D9D53E /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
 		FDB7CA741E99476400B284D8 = {
 			isa = PBXGroup;
 			children = (
+				FD171BBB1EAD132900D9D53E /* CatBounce-Bridging-Header.h */,
 				FDB7CA7F1E99476400B284D8 /* CatBounce */,
 				FDB7CA941E99476400B284D8 /* CatBounceTests */,
 				FDB7CA9F1E99476400B284D8 /* CatBounceUITests */,
@@ -97,6 +127,7 @@
 				FDB7CA821E99476400B284D8 /* ViewController.swift */,
 				FDB7CA871E99476400B284D8 /* Assets.xcassets */,
 				FDB7CA8C1E99476400B284D8 /* Info.plist */,
+				FD171BA91EAD0F5600D9D53E /* PureLayout */,
 			);
 			path = CatBounce;
 			sourceTree = "<group>";
@@ -251,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD171BB41EAD0F5600D9D53E /* NSArray+PureLayout.m in Sources */,
+				FD171BB51EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.m in Sources */,
 				FDB7CA831E99476400B284D8 /* ViewController.swift in Sources */,
+				FD171BB31EAD0F5600D9D53E /* ALView+PureLayout.m in Sources */,
 				FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,10 +419,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tom Dolan (PVDQZJF6BP)";
 				INFOPLIST_FILE = CatBounce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CatBounce-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -401,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Games.CatBounce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CatBounce-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -478,6 +515,7 @@
 				FDB7CAA71E99476400B284D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDB7CAA81E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +524,7 @@
 				FDB7CAAA1E99476400B284D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDB7CAAB1E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +533,7 @@
 				FDB7CAAD1E99476400B284D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

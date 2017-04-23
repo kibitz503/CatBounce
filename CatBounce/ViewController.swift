@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import GameKit
 
 class ViewController: UIViewController {
 
+    var scnView: SCNView!
+    var scnScene: SCNScene!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        setupView()
+        setupScene()
+    }
+    
+    func setupView() {
+        scnView = SCNView()
+        view.addSubview(scnView)
+        scnView.translatesAutoresizingMaskIntoConstraints = false
+        scnView.autoPinEdgesToSuperviewEdges()
+    }
+    
+    func setupScene() {
+        scnScene = SCNScene()
+        scnView.scene = scnScene
     }
 
     override func didReceiveMemoryWarning() {
