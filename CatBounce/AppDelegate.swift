@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
         
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = MainMenuViewController()
         
         return true
     }
