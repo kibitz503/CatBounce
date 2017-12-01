@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5615F54D777736F704A4C094 /* Pods_CatBounceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8581E347A9C1900698CD0 /* Pods_CatBounceUITests.framework */; };
+		E1BD45234E278822F734A08F /* Pods_CatBounceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93EF422DBF9C07AFEA2C38 /* Pods_CatBounceTests.framework */; };
+		FC8101438564A3827B1C2026 /* Pods_CatBounce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80202C42CF49575BDAA45556 /* Pods_CatBounce.framework */; };
 		FD171BB31EAD0F5600D9D53E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD171BAB1EAD0F5600D9D53E /* ALView+PureLayout.m */; };
 		FD171BB41EAD0F5600D9D53E /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD171BAD1EAD0F5600D9D53E /* NSArray+PureLayout.m */; };
 		FD171BB51EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD171BAF1EAD0F5600D9D53E /* NSLayoutConstraint+PureLayout.m */; };
@@ -37,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E47B3F8D1A831912958541 /* Pods-CatBounceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatBounceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounceUITests/Pods-CatBounceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41AC1E6722893F74ECEC60DA /* Pods-CatBounceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatBounceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounceTests/Pods-CatBounceTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C92173F40D144348EB13EE3 /* Pods-CatBounce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatBounce.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounce/Pods-CatBounce.release.xcconfig"; sourceTree = "<group>"; };
+		4D93EF422DBF9C07AFEA2C38 /* Pods_CatBounceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatBounceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD8581E347A9C1900698CD0 /* Pods_CatBounceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatBounceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE469C2E732155ED1477DBD /* Pods-CatBounceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatBounceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounceTests/Pods-CatBounceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80202C42CF49575BDAA45556 /* Pods_CatBounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatBounce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B0168DE1735C47385D64BE /* Pods-CatBounce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatBounce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounce/Pods-CatBounce.debug.xcconfig"; sourceTree = "<group>"; };
+		F593AFCA192A061741A5F3E4 /* Pods-CatBounceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatBounceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounceUITests/Pods-CatBounceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD171BAA1EAD0F5600D9D53E /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
 		FD171BAB1EAD0F5600D9D53E /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
 		FD171BAC1EAD0F5600D9D53E /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
@@ -67,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8101438564A3827B1C2026 /* Pods_CatBounce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BD45234E278822F734A08F /* Pods_CatBounceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +95,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5615F54D777736F704A4C094 /* Pods_CatBounceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511142C97F8720BDE79BEFA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80202C42CF49575BDAA45556 /* Pods_CatBounce.framework */,
+				4D93EF422DBF9C07AFEA2C38 /* Pods_CatBounceTests.framework */,
+				5FD8581E347A9C1900698CD0 /* Pods_CatBounceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E001DD3F02523F235F208E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0168DE1735C47385D64BE /* Pods-CatBounce.debug.xcconfig */,
+				4C92173F40D144348EB13EE3 /* Pods-CatBounce.release.xcconfig */,
+				6CE469C2E732155ED1477DBD /* Pods-CatBounceTests.debug.xcconfig */,
+				41AC1E6722893F74ECEC60DA /* Pods-CatBounceTests.release.xcconfig */,
+				00E47B3F8D1A831912958541 /* Pods-CatBounceUITests.debug.xcconfig */,
+				F593AFCA192A061741A5F3E4 /* Pods-CatBounceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD171BA91EAD0F5600D9D53E /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +149,8 @@
 				FDB7CA941E99476400B284D8 /* CatBounceTests */,
 				FDB7CA9F1E99476400B284D8 /* CatBounceUITests */,
 				FDB7CA7E1E99476400B284D8 /* Products */,
+				8E001DD3F02523F235F208E5 /* Pods */,
+				511142C97F8720BDE79BEFA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDB7CAA51E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounce" */;
 			buildPhases = (
+				59711F4710AAA4A6539A9454 /* [CP] Check Pods Manifest.lock */,
 				FDB7CA791E99476400B284D8 /* Sources */,
 				FDB7CA7A1E99476400B284D8 /* Frameworks */,
 				FDB7CA7B1E99476400B284D8 /* Resources */,
+				82DADF819D0CEF941E53298C /* [CP] Embed Pods Frameworks */,
+				011D315A61D80889BA2E423D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDB7CAA81E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceTests" */;
 			buildPhases = (
+				DBF96FC8DC6F90B559B50F87 /* [CP] Check Pods Manifest.lock */,
 				FDB7CA8D1E99476400B284D8 /* Sources */,
 				FDB7CA8E1E99476400B284D8 /* Frameworks */,
 				FDB7CA8F1E99476400B284D8 /* Resources */,
+				7AE001D756687CE2C159B4CB /* [CP] Embed Pods Frameworks */,
+				AF91671331163D7AB898EF35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDB7CAAB1E99476400B284D8 /* Build configuration list for PBXNativeTarget "CatBounceUITests" */;
 			buildPhases = (
+				66D5BBC4FD79CE3ABBB8615F /* [CP] Check Pods Manifest.lock */,
 				FDB7CA981E99476400B284D8 /* Sources */,
 				FDB7CA991E99476400B284D8 /* Frameworks */,
 				FDB7CA9A1E99476400B284D8 /* Resources */,
+				AE991C5F9828D4DA88F720BA /* [CP] Embed Pods Frameworks */,
+				C77C8E95148B1A3D7D3A94FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +332,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		011D315A61D80889BA2E423D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatBounce/Pods-CatBounce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59711F4710AAA4A6539A9454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatBounce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D5BBC4FD79CE3ABBB8615F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatBounceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE001D756687CE2C159B4CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatBounceTests/Pods-CatBounceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82DADF819D0CEF941E53298C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CatBounce/Pods-CatBounce-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHTCollectionViewWaterfallLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatBounce/Pods-CatBounce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE991C5F9828D4DA88F720BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatBounceUITests/Pods-CatBounceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF91671331163D7AB898EF35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatBounceTests/Pods-CatBounceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C77C8E95148B1A3D7D3A94FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatBounceUITests/Pods-CatBounceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF96FC8DC6F90B559B50F87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatBounceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDB7CA791E99476400B284D8 /* Sources */ = {
@@ -425,6 +624,7 @@
 		};
 		FDB7CAA61E99476400B284D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B0168DE1735C47385D64BE /* Pods-CatBounce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tom Dolan (PVDQZJF6BP)";
@@ -439,6 +639,7 @@
 		};
 		FDB7CAA71E99476400B284D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C92173F40D144348EB13EE3 /* Pods-CatBounce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatBounce/Info.plist;
@@ -452,6 +653,7 @@
 		};
 		FDB7CAA91E99476400B284D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE469C2E732155ED1477DBD /* Pods-CatBounceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +668,7 @@
 		};
 		FDB7CAAA1E99476400B284D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41AC1E6722893F74ECEC60DA /* Pods-CatBounceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +683,7 @@
 		};
 		FDB7CAAC1E99476400B284D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E47B3F8D1A831912958541 /* Pods-CatBounceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CatBounceUITests/Info.plist;
@@ -493,6 +697,7 @@
 		};
 		FDB7CAAD1E99476400B284D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F593AFCA192A061741A5F3E4 /* Pods-CatBounceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CatBounceUITests/Info.plist;
