@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CatBounceTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CatBounceTestsVersionString[];
+FOUNDATION_EXPORT double Pods_HuntersPocketGuideTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_HuntersPocketGuideTestsVersionString[];
 

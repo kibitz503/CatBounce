@@ -1,5 +1,5 @@
-framework module Pods_CatBounce {
-  umbrella header "Pods-CatBounce-umbrella.h"
+framework module Pods_HuntersPocketGuide {
+  umbrella header "Pods-HuntersPocketGuide-umbrella.h"
 
   export *
   module * { export * }

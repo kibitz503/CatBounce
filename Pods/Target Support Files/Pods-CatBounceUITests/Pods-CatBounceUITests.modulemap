@@ -1,5 +1,5 @@
-framework module Pods_CatBounceUITests {
-  umbrella header "Pods-CatBounceUITests-umbrella.h"
+framework module Pods_HuntersPocketGuideUITests {
+  umbrella header "Pods-HuntersPocketGuideUITests-umbrella.h"
 
   export *
   module * { export * }

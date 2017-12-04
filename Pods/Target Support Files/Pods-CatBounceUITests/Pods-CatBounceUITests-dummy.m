@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_CatBounceUITests : NSObject
+@interface PodsDummy_Pods_HuntersPocketGuideUITests : NSObject
 @end
-@implementation PodsDummy_Pods_CatBounceUITests
+@implementation PodsDummy_Pods_HuntersPocketGuideUITests
 @end

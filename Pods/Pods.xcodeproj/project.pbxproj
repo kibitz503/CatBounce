@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5CA033AE4BE98E9F458F9545FFC584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		14B29A25C000F06470125BA22E285680 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		528DA553B43A213A28D7D4352E21BCE7 /* Pods-CatBounce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3BE5C14587800ECF557C8AC10203A1B /* Pods-CatBounce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D96D498C71CD9B88C0D42BD6D93E294 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE717C498C1F200026076C151F82EB0 /* CHTCollectionViewWaterfallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73940DE3797F81ABCE722F1C0E5FEEF9 /* Pods-CatBounce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2A96E72135036F1E376144B0C62C /* Pods-CatBounce-dummy.m */; };
-		7D4258A7B8DE5B14B7B4B91D6B955029 /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14896A6D5F9DFB449906C925D3FC5AB /* CHTCollectionViewWaterfallLayout.swift */; };
+		1A38CD068886722ECEA2A79A26764E19 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7151469C0CB12EB1F2BFD9E7844C990F /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A70143D16CA4B05334B99B8647781D5 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB159170EF8A305CA521BEAABDA6B264 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		328B5D237351EDAAB2366F67B9F8E1FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		453E62A4DF0F945CE52F731F16A525B6 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A13D194ADD0DF84376F3E1AEC70AD905 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2DB603F3037499D80E725429EA735C /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D9566473799A08059F2C1AF5ABE7A4 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E95A388DF7F79D2E917BE1BAC12EF58 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EE907F98FC0FCC4104A6C451FCFA27F5 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D96D498C71CD9B88C0D42BD6D93E294 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B46085EE1D7A08668F769A05386DBC0 /* CHTCollectionViewWaterfallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C9AB16BC9513356C9E7F7ACA8917045 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 801A134E6D5E4FA666D5B6FCFD0946C2 /* NSLayoutConstraint+PureLayout.m */; };
+		7D4258A7B8DE5B14B7B4B91D6B955029 /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A52EFFDDC831FE3ECEC7A23DD52C9A /* CHTCollectionViewWaterfallLayout.swift */; };
 		87FC4A668B5327B1A55C13540EF06F17 /* Pods-CatBounceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD2B3C65497223A8E99285258004B5A /* Pods-CatBounceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AABDBDD3A0BE5293C0F71603289EDD02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AE594283992F51AB68CBA688F61F5071 /* Pods-CatBounceUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3898385256154DCF96F092CA19181AD2 /* Pods-CatBounceUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD5E4D782A8BED6744F29F6D5A6C2651 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FE841D92F5C387D821A14F507B862 /* CHTCollectionViewWaterfallLayout-dummy.m */; };
+		C3B4C715DD41370E58661AB17AE7EF6B /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8740C7EBFD26835581969DCDBA892F28 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4727D8C22BB9272B3E046F109DD270D /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1626870EE42DDBC0A0A1AE1B58CBE655 /* ALView+PureLayout.m */; };
+		C93B59B9948C2D5BE03DA4A476BF8AE2 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F70475F7E48541A0BBBE53A9208F1884 /* PureLayout-dummy.m */; };
+		CD5E4D782A8BED6744F29F6D5A6C2651 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F40144917F089124906837EDAA2044E4 /* CHTCollectionViewWaterfallLayout-dummy.m */; };
 		CD717E7E8E97155C9B7DA448A23EA1D0 /* Pods-CatBounceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CAED060E5DA536B6628214292449E2 /* Pods-CatBounceTests-dummy.m */; };
-		E9FBB808C8CFD54647E1AC27FEA019F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DC950B7D3C12F2C6C26C5EF13A48D698 /* Pods-CatBounce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3BE5C14587800ECF557C8AC10203A1B /* Pods-CatBounce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE136EF997E144A9A61786976AA04295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F62EA2ADB0323A68AE0A9B4F888914A0 /* Pods-CatBounce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2A96E72135036F1E376144B0C62C /* Pods-CatBounce-dummy.m */; };
 		F91393ABA443AF41824BCFA85C46CEB2 /* Pods-CatBounceUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC68675B679B56DBBA97F7BC027FD9C8 /* Pods-CatBounceUITests-dummy.m */; };
+		FB082EC1623B08A717053C1576F1C271 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DF04DD48E2DAE49FE76DE3F36E1C362D /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9733B449A656B9F2CF9DA6F95FC06D /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3968166045186C4637D3148191B08DE0 /* NSArray+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1F2940196E9E7D1A8D454005D4F4008 /* PBXContainerItemProxy */ = {
+		A8CE6A4182D0E054BD2C99700185A750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C2F07A9090CCC3876C5FD3CD7A5DE24;
+			remoteInfo = PureLayout;
+		};
+		E0C3FCEB2D19D0FE461BDB65A0D48DDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -33,52 +52,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019B6FCA5B77BA20761191563647BE31 /* Pods_CatBounceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounceUITests.framework; path = "Pods-CatBounceUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B46085EE1D7A08668F769A05386DBC0 /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
 		0C2E728CF1EFAA44C4080DE94A38378D /* Pods-CatBounceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CatBounceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0ECC539FDA6F5590044356F73A3AD28A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		116E65BB6CA86AC76A66A84CE5A83373 /* Pods-CatBounceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CatBounceUITests.modulemap"; sourceTree = "<group>"; };
+		1199100E7CAB8D240896A3B745311C56 /* CHTCollectionViewWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.xcconfig; sourceTree = "<group>"; };
+		1626870EE42DDBC0A0A1AE1B58CBE655 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 		1CD055404048FD9AD96C3F9152B84A18 /* Pods-CatBounceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CatBounceTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2103461560CF266F1AC954E30721C951 /* Pods-CatBounceUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CatBounceUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2B6681522057725E3EB92104C85576B2 /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
+		234284745DDDF2A5923D9E85D3C93DD2 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PureLayout.modulemap; sourceTree = "<group>"; };
 		3680AA879AB5F30CB4A52687C42090A5 /* Pods-CatBounceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceTests-resources.sh"; sourceTree = "<group>"; };
 		3898385256154DCF96F092CA19181AD2 /* Pods-CatBounceUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CatBounceUITests-umbrella.h"; sourceTree = "<group>"; };
+		3968166045186C4637D3148191B08DE0 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		44C69006A1CD6CA8D6452B2D19FBC60B /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		498F139391E123103D9BCD245BD6449B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE372D7F010DD49BB70EA91532E25CF /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
 		52CAED060E5DA536B6628214292449E2 /* Pods-CatBounceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CatBounceTests-dummy.m"; sourceTree = "<group>"; };
 		5BD2B3C65497223A8E99285258004B5A /* Pods-CatBounceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CatBounceTests-umbrella.h"; sourceTree = "<group>"; };
+		5D479B25A7FC19680A487FE4CB530B14 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		63AB16FD564B4F9755AB3E5BE83B5A7A /* Pods_CatBounceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounceUITests.framework; path = "Pods-CatBounceUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C5723DAB01F56AA71FE44D77D6AA9C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FBEDF3665621EEF77DDDB3EA13DC246 /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
+		69A52EFFDDC831FE3ECEC7A23DD52C9A /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		7151469C0CB12EB1F2BFD9E7844C990F /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		801A134E6D5E4FA666D5B6FCFD0946C2 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
 		830DB7617980E4A194BD7658E2484A91 /* Pods-CatBounceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CatBounceTests.modulemap"; sourceTree = "<group>"; };
+		8698E7D426609A261F248C30490C5045 /* Pods_CatBounceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounceTests.framework; path = "Pods-CatBounceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8740C7EBFD26835581969DCDBA892F28 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
 		898D75B253B6E8A84B7D31BF81DD39CD /* Pods-CatBounce-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounce-resources.sh"; sourceTree = "<group>"; };
 		8B63F39DE7480FAAFEE216D84F718E09 /* Pods-CatBounceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceTests-frameworks.sh"; sourceTree = "<group>"; };
 		8DC4067E92A45DBD33103B3E7918FE8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F65D4E5D2617502BABF62D0BE8444A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B355D48EAD2686A55A69BC535C0A17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		915AC5A5596FDD01A90194E7CB1F3C40 /* Pods-CatBounceUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceUITests-resources.sh"; sourceTree = "<group>"; };
+		93014AAC77DE770985A735A368D4E144 /* Pods_CatBounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounce.framework; path = "Pods-CatBounce.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AEA79A14F6E6E32E29DE031C271FBE6 /* Pods-CatBounceUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A13D194ADD0DF84376F3E1AEC70AD905 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		A16F29B3A6D9B656D84615511FE0565A /* Pods-CatBounce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounce-frameworks.sh"; sourceTree = "<group>"; };
 		AB1763B5CD5D08FCE4921E9F10B1F719 /* Pods-CatBounceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AB3B2A96E72135036F1E376144B0C62C /* Pods-CatBounce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CatBounce-dummy.m"; sourceTree = "<group>"; };
 		AB7CEAB3E13CB42E3EEF13B8A32C746F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB8FE841D92F5C387D821A14F507B862 /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
+		B5D9566473799A08059F2C1AF5ABE7A4 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		BB39AEE7AC260008234A5A0D244F8354 /* Pods-CatBounceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounceTests.release.xcconfig"; sourceTree = "<group>"; };
-		C14896A6D5F9DFB449906C925D3FC5AB /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
 		C57A8BA3716B4DA8811F203F213F9405 /* Pods-CatBounce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CatBounce-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBE717C498C1F200026076C151F82EB0 /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
-		CD6D9E8EF8A7A034F5D14D8D81E71C5C /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTCollectionViewWaterfallLayout.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D17EE5BB82CB3A9D4141DA015BFA103D /* CHTCollectionViewWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.xcconfig; sourceTree = "<group>"; };
+		C7EF4FB18F426D53D422D53F63B67363 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTCollectionViewWaterfallLayout.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18723066F5625EAF21E8247D55E9C4E /* Pods-CatBounceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3BE5C14587800ECF557C8AC10203A1B /* Pods-CatBounce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CatBounce-umbrella.h"; sourceTree = "<group>"; };
 		D4DF73E9E3D626DD86603CA9958ED3EA /* Pods-CatBounce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounce.release.xcconfig"; sourceTree = "<group>"; };
-		D7DF5AB9DE0778B8A8D6B2A087294D52 /* Pods_CatBounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounce.framework; path = "Pods-CatBounce.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8092DB61D2D37765B5472786B14A920 /* Pods-CatBounceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB159170EF8A305CA521BEAABDA6B264 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		DC68675B679B56DBBA97F7BC027FD9C8 /* Pods-CatBounceUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CatBounceUITests-dummy.m"; sourceTree = "<group>"; };
+		DF04DD48E2DAE49FE76DE3F36E1C362D /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
 		E55672D6BEAB290C78F243A4380DD2EC /* Pods-CatBounce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounce.debug.xcconfig"; sourceTree = "<group>"; };
 		EAAC340F569CF68226D2698EBEB5A989 /* Pods-CatBounce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CatBounce-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBEDC47C7D367292280AC179B7C391A1 /* Pods_CatBounceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounceTests.framework; path = "Pods-CatBounceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF68623C6C65CD47F2171F13D7474C0 /* Pods-CatBounceUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CatBounceUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE907F98FC0FCC4104A6C451FCFA27F5 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		F40144917F089124906837EDAA2044E4 /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
 		F61A972B2270DF2989750201465198BE /* Pods-CatBounce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CatBounce.modulemap"; sourceTree = "<group>"; };
+		F70475F7E48541A0BBBE53A9208F1884 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		FA8B7B5B4F773D5ECF827D5300344199 /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D36CA81BC010AAE32F295FF521EA052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328B5D237351EDAAB2366F67B9F8E1FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24DC77A14D902F89A69046B45605FFBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,11 +146,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67FA26AA6CEF5CA1358AC1FECA0CF4AB /* Frameworks */ = {
+		9EEA7CD9060A89DB96782466A6729E2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9FBB808C8CFD54647E1AC27FEA019F5 /* Foundation.framework in Frameworks */,
+				0B5CA033AE4BE98E9F458F9545FFC584 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,20 +175,30 @@
 			path = "Target Support Files/Pods-CatBounceUITests";
 			sourceTree = "<group>";
 		};
-		3A897A2957C46EA2C8EF65D09D02F92A /* Swift */ = {
+		531FC8EED0E95724082E7B9B24B12047 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C14896A6D5F9DFB449906C925D3FC5AB /* CHTCollectionViewWaterfallLayout.swift */,
+				C7EF4FB18F426D53D422D53F63B67363 /* CHTCollectionViewWaterfallLayout.framework */,
+				93014AAC77DE770985A735A368D4E144 /* Pods_CatBounce.framework */,
+				8698E7D426609A261F248C30490C5045 /* Pods_CatBounceTests.framework */,
+				63AB16FD564B4F9755AB3E5BE83B5A7A /* Pods_CatBounceUITests.framework */,
+				0ECC539FDA6F5590044356F73A3AD28A /* PureLayout.framework */,
 			);
-			name = Swift;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		3B9C110BF282F6836E90F88C2E32BACA /* Pods */ = {
+		65348A398B34D863CBEF2498487488C3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9D00ADE4878233845FFB86659304207A /* CHTCollectionViewWaterfallLayout */,
+				FA8B7B5B4F773D5ECF827D5300344199 /* CHTCollectionViewWaterfallLayout.modulemap */,
+				1199100E7CAB8D240896A3B745311C56 /* CHTCollectionViewWaterfallLayout.xcconfig */,
+				F40144917F089124906837EDAA2044E4 /* CHTCollectionViewWaterfallLayout-dummy.m */,
+				4BE372D7F010DD49BB70EA91532E25CF /* CHTCollectionViewWaterfallLayout-prefix.pch */,
+				0B46085EE1D7A08668F769A05386DBC0 /* CHTCollectionViewWaterfallLayout-umbrella.h */,
+				90B355D48EAD2686A55A69BC535C0A17 /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/CHTCollectionViewWaterfallLayout";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -153,45 +206,51 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3B9C110BF282F6836E90F88C2E32BACA /* Pods */,
-				9E90C7ABF5500C1DA7C21D0FBF75181B /* Products */,
+				A9ADFBE95D4609C84C38B2F13EBC18F8 /* Pods */,
+				531FC8EED0E95724082E7B9B24B12047 /* Products */,
 				CB7DD846886FBADDC1908A5249929C82 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		91A96C407221489A0674D85A71E7677C /* Support Files */ = {
+		9CFBFB5D4B9FE7E10DEAF7ED9D321C5C /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
-				2B6681522057725E3EB92104C85576B2 /* CHTCollectionViewWaterfallLayout.modulemap */,
-				D17EE5BB82CB3A9D4141DA015BFA103D /* CHTCollectionViewWaterfallLayout.xcconfig */,
-				AB8FE841D92F5C387D821A14F507B862 /* CHTCollectionViewWaterfallLayout-dummy.m */,
-				6FBEDF3665621EEF77DDDB3EA13DC246 /* CHTCollectionViewWaterfallLayout-prefix.pch */,
-				CBE717C498C1F200026076C151F82EB0 /* CHTCollectionViewWaterfallLayout-umbrella.h */,
-				6C5723DAB01F56AA71FE44D77D6AA9C3 /* Info.plist */,
+				A13D194ADD0DF84376F3E1AEC70AD905 /* ALView+PureLayout.h */,
+				1626870EE42DDBC0A0A1AE1B58CBE655 /* ALView+PureLayout.m */,
+				DF04DD48E2DAE49FE76DE3F36E1C362D /* NSArray+PureLayout.h */,
+				3968166045186C4637D3148191B08DE0 /* NSArray+PureLayout.m */,
+				EE907F98FC0FCC4104A6C451FCFA27F5 /* NSLayoutConstraint+PureLayout.h */,
+				801A134E6D5E4FA666D5B6FCFD0946C2 /* NSLayoutConstraint+PureLayout.m */,
+				7151469C0CB12EB1F2BFD9E7844C990F /* PureLayout.h */,
+				B5D9566473799A08059F2C1AF5ABE7A4 /* PureLayout+Internal.h */,
+				8740C7EBFD26835581969DCDBA892F28 /* PureLayoutDefines.h */,
+				A6EF265A6D272976D9E4BB6D991C7DF7 /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A6EF265A6D272976D9E4BB6D991C7DF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				498F139391E123103D9BCD245BD6449B /* Info.plist */,
+				234284745DDDF2A5923D9E85D3C93DD2 /* PureLayout.modulemap */,
+				5D479B25A7FC19680A487FE4CB530B14 /* PureLayout.xcconfig */,
+				F70475F7E48541A0BBBE53A9208F1884 /* PureLayout-dummy.m */,
+				44C69006A1CD6CA8D6452B2D19FBC60B /* PureLayout-prefix.pch */,
+				DB159170EF8A305CA521BEAABDA6B264 /* PureLayout-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CHTCollectionViewWaterfallLayout";
+			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
-		9D00ADE4878233845FFB86659304207A /* CHTCollectionViewWaterfallLayout */ = {
+		A9ADFBE95D4609C84C38B2F13EBC18F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				91A96C407221489A0674D85A71E7677C /* Support Files */,
-				3A897A2957C46EA2C8EF65D09D02F92A /* Swift */,
+				C12A689F525B5857C317F20A32AB7095 /* CHTCollectionViewWaterfallLayout */,
+				9CFBFB5D4B9FE7E10DEAF7ED9D321C5C /* PureLayout */,
 			);
-			name = CHTCollectionViewWaterfallLayout;
-			path = CHTCollectionViewWaterfallLayout;
-			sourceTree = "<group>";
-		};
-		9E90C7ABF5500C1DA7C21D0FBF75181B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD6D9E8EF8A7A034F5D14D8D81E71C5C /* CHTCollectionViewWaterfallLayout.framework */,
-				D7DF5AB9DE0778B8A8D6B2A087294D52 /* Pods_CatBounce.framework */,
-				EBEDC47C7D367292280AC179B7C391A1 /* Pods_CatBounceTests.framework */,
-				019B6FCA5B77BA20761191563647BE31 /* Pods_CatBounceUITests.framework */,
-			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -200,6 +259,16 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12A689F525B5857C317F20A32AB7095 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				65348A398B34D863CBEF2498487488C3 /* Support Files */,
+				EF2EC6127263E05F2B5EE916DBD1C20F /* Swift */,
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			path = CHTCollectionViewWaterfallLayout;
 			sourceTree = "<group>";
 		};
 		C2C3B2DAC2540580B3AFCB17CFC2B357 /* Pods-CatBounce */ = {
@@ -256,9 +325,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EF2EC6127263E05F2B5EE916DBD1C20F /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				69A52EFFDDC831FE3ECEC7A23DD52C9A /* CHTCollectionViewWaterfallLayout.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		32571945039AE997FFCCB24375252585 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453E62A4DF0F945CE52F731F16A525B6 /* ALView+PureLayout.h in Headers */,
+				FB082EC1623B08A717053C1576F1C271 /* NSArray+PureLayout.h in Headers */,
+				4E95A388DF7F79D2E917BE1BAC12EF58 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				4B2DB603F3037499D80E725429EA735C /* PureLayout+Internal.h in Headers */,
+				1A70143D16CA4B05334B99B8647781D5 /* PureLayout-umbrella.h in Headers */,
+				1A38CD068886722ECEA2A79A26764E19 /* PureLayout.h in Headers */,
+				C3B4C715DD41370E58661AB17AE7EF6B /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FECDDBAEEA22E9D953E2E659E0EF8CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +366,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1E6104429A5B650085177B9A41AD329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC950B7D3C12F2C6C26C5EF13A48D698 /* Pods-CatBounce-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB9EE19E354F0B87477E959E6BD27616 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,17 +382,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED2759F9CD2CDAC537A2503FE497BF7E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				528DA553B43A213A28D7D4352E21BCE7 /* Pods-CatBounce-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2C2F07A9090CCC3876C5FD3CD7A5DE24 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85B6B9F93CB53E2089CE9F9EE9018EA /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				038A50D57F1D5BEAC6B4439D5A4AD216 /* Sources */,
+				1D36CA81BC010AAE32F295FF521EA052 /* Frameworks */,
+				32571945039AE997FFCCB24375252585 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 0ECC539FDA6F5590044356F73A3AD28A /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58D74F30C4B74796F4039A0D664EA68D /* Pods-CatBounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A890699FF06A18F5AD4A665832AC83F /* Build configuration list for PBXNativeTarget "Pods-CatBounce" */;
+			buildPhases = (
+				02A96B2BA257B5AB17A3918F8AB282A0 /* Sources */,
+				9EEA7CD9060A89DB96782466A6729E2E /* Frameworks */,
+				A1E6104429A5B650085177B9A41AD329 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E9644C898A5CFE5155D94492900815 /* PBXTargetDependency */,
+				5B4BB1507D0F3ED6FA605938F570CD2C /* PBXTargetDependency */,
+			);
+			name = "Pods-CatBounce";
+			productName = "Pods-CatBounce";
+			productReference = 93014AAC77DE770985A735A368D4E144 /* Pods_CatBounce.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		83DBBCE523C3F780DFE1B689B272DDE8 /* CHTCollectionViewWaterfallLayout */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7151B549D788AB03287452A1205A14CD /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */;
@@ -308,7 +435,7 @@
 			);
 			name = CHTCollectionViewWaterfallLayout;
 			productName = CHTCollectionViewWaterfallLayout;
-			productReference = CD6D9E8EF8A7A034F5D14D8D81E71C5C /* CHTCollectionViewWaterfallLayout.framework */;
+			productReference = C7EF4FB18F426D53D422D53F63B67363 /* CHTCollectionViewWaterfallLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C1D2CEF6E8E5282CA6916FC21F231C2C /* Pods-CatBounceUITests */ = {
@@ -325,7 +452,7 @@
 			);
 			name = "Pods-CatBounceUITests";
 			productName = "Pods-CatBounceUITests";
-			productReference = 019B6FCA5B77BA20761191563647BE31 /* Pods_CatBounceUITests.framework */;
+			productReference = 63AB16FD564B4F9755AB3E5BE83B5A7A /* Pods_CatBounceUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6BFD79D2D9A2EF10AD95A40A54E606A /* Pods-CatBounceTests */ = {
@@ -342,25 +469,7 @@
 			);
 			name = "Pods-CatBounceTests";
 			productName = "Pods-CatBounceTests";
-			productReference = EBEDC47C7D367292280AC179B7C391A1 /* Pods_CatBounceTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DEE268A67CC4279329BDF2A57D6CA568 /* Pods-CatBounce */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 927D6C160B503F94D7A2B215E38E5753 /* Build configuration list for PBXNativeTarget "Pods-CatBounce" */;
-			buildPhases = (
-				B4FCA7069B04C62433138A7629F37089 /* Sources */,
-				67FA26AA6CEF5CA1358AC1FECA0CF4AB /* Frameworks */,
-				ED2759F9CD2CDAC537A2503FE497BF7E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA6071B5E0757F199CF5FDF70E394792 /* PBXTargetDependency */,
-			);
-			name = "Pods-CatBounce";
-			productName = "Pods-CatBounce";
-			productReference = D7DF5AB9DE0778B8A8D6B2A087294D52 /* Pods_CatBounce.framework */;
+			productReference = 8698E7D426609A261F248C30490C5045 /* Pods_CatBounceTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -380,19 +489,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9E90C7ABF5500C1DA7C21D0FBF75181B /* Products */;
+			productRefGroup = 531FC8EED0E95724082E7B9B24B12047 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				83DBBCE523C3F780DFE1B689B272DDE8 /* CHTCollectionViewWaterfallLayout */,
-				DEE268A67CC4279329BDF2A57D6CA568 /* Pods-CatBounce */,
+				58D74F30C4B74796F4039A0D664EA68D /* Pods-CatBounce */,
 				D6BFD79D2D9A2EF10AD95A40A54E606A /* Pods-CatBounceTests */,
 				C1D2CEF6E8E5282CA6916FC21F231C2C /* Pods-CatBounceUITests */,
+				2C2F07A9090CCC3876C5FD3CD7A5DE24 /* PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		02A96B2BA257B5AB17A3918F8AB282A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62EA2ADB0323A68AE0A9B4F888914A0 /* Pods-CatBounce-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038A50D57F1D5BEAC6B4439D5A4AD216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4727D8C22BB9272B3E046F109DD270D /* ALView+PureLayout.m in Sources */,
+				FB9733B449A656B9F2CF9DA6F95FC06D /* NSArray+PureLayout.m in Sources */,
+				6C9AB16BC9513356C9E7F7ACA8917045 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				C93B59B9948C2D5BE03DA4A476BF8AE2 /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		107657F26E031932AA8727437DB06815 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,22 +547,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4FCA7069B04C62433138A7629F37089 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73940DE3797F81ABCE722F1C0E5FEEF9 /* Pods-CatBounce-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FA6071B5E0757F199CF5FDF70E394792 /* PBXTargetDependency */ = {
+		5B4BB1507D0F3ED6FA605938F570CD2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 2C2F07A9090CCC3876C5FD3CD7A5DE24 /* PureLayout */;
+			targetProxy = A8CE6A4182D0E054BD2C99700185A750 /* PBXContainerItemProxy */;
+		};
+		F9E9644C898A5CFE5155D94492900815 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHTCollectionViewWaterfallLayout;
 			target = 83DBBCE523C3F780DFE1B689B272DDE8 /* CHTCollectionViewWaterfallLayout */;
-			targetProxy = A1F2940196E9E7D1A8D454005D4F4008 /* PBXContainerItemProxy */;
+			targetProxy = E0C3FCEB2D19D0FE461BDB65A0D48DDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,40 +653,6 @@
 			};
 			name = Release;
 		};
-		470B5A504FBD69C5B6CCEBCF85486E2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4DF73E9E3D626DD86603CA9958ED3EA /* Pods-CatBounce.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CatBounce/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CatBounce/Pods-CatBounce.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CatBounce;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5B5A1446720EEC8CE963B9BD750713E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -620,70 +713,7 @@
 			};
 			name = Debug;
 		};
-		8F03B359E9BE61FA1305E38B5C8F46EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D17EE5BB82CB3A9D4141DA015BFA103D /* CHTCollectionViewWaterfallLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
-				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AC54E7DDDC376A309CE887C19A1ECA96 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D17EE5BB82CB3A9D4141DA015BFA103D /* CHTCollectionViewWaterfallLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
-				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AF3B3A868D4371BA21A1F8CB353A3D1E /* Debug */ = {
+		6514C371ADC95F9F94B220A15D55320B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E55672D6BEAB290C78F243A4380DD2EC /* Pods-CatBounce.debug.xcconfig */;
 			buildSettings = {
@@ -716,6 +746,164 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		769AEBA455A8BBF50C2BE32CC9E4AD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DF73E9E3D626DD86603CA9958ED3EA /* Pods-CatBounce.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CatBounce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CatBounce/Pods-CatBounce.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CatBounce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E2096B86785A92C38395640A12FAFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D479B25A7FC19680A487FE4CB530B14 /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F03B359E9BE61FA1305E38B5C8F46EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1199100E7CAB8D240896A3B745311C56 /* CHTCollectionViewWaterfallLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC54E7DDDC376A309CE887C19A1ECA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1199100E7CAB8D240896A3B745311C56 /* CHTCollectionViewWaterfallLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC0A508F956E8BD0C7A5DF778C88AA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D479B25A7FC19680A487FE4CB530B14 /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C15BC491B1DB4D8B6BD088CC0FEEBBE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -844,11 +1032,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		927D6C160B503F94D7A2B215E38E5753 /* Build configuration list for PBXNativeTarget "Pods-CatBounce" */ = {
+		8A890699FF06A18F5AD4A665832AC83F /* Build configuration list for PBXNativeTarget "Pods-CatBounce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF3B3A868D4371BA21A1F8CB353A3D1E /* Debug */,
-				470B5A504FBD69C5B6CCEBCF85486E2F /* Release */,
+				6514C371ADC95F9F94B220A15D55320B /* Debug */,
+				769AEBA455A8BBF50C2BE32CC9E4AD26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -858,6 +1046,15 @@
 			buildConfigurations = (
 				C15BC491B1DB4D8B6BD088CC0FEEBBE5 /* Debug */,
 				2003944A500DC66F12AFCFC5D3CE4414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85B6B9F93CB53E2089CE9F9EE9018EA /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2096B86785A92C38395640A12FAFD2 /* Debug */,
+				BC0A508F956E8BD0C7A5DF778C88AA3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
