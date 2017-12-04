@@ -54,13 +54,13 @@
 /* Begin PBXFileReference section */
 		0B46085EE1D7A08668F769A05386DBC0 /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
 		0C2E728CF1EFAA44C4080DE94A38378D /* Pods-CatBounceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CatBounceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0ECC539FDA6F5590044356F73A3AD28A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		116E65BB6CA86AC76A66A84CE5A83373 /* Pods-CatBounceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CatBounceUITests.modulemap"; sourceTree = "<group>"; };
+		0ECC539FDA6F5590044356F73A3AD28A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		116E65BB6CA86AC76A66A84CE5A83373 /* Pods-CatBounceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CatBounceUITests.modulemap"; sourceTree = "<group>"; };
 		1199100E7CAB8D240896A3B745311C56 /* CHTCollectionViewWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.xcconfig; sourceTree = "<group>"; };
 		1626870EE42DDBC0A0A1AE1B58CBE655 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 		1CD055404048FD9AD96C3F9152B84A18 /* Pods-CatBounceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CatBounceTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2103461560CF266F1AC954E30721C951 /* Pods-CatBounceUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CatBounceUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		234284745DDDF2A5923D9E85D3C93DD2 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		234284745DDDF2A5923D9E85D3C93DD2 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
 		3680AA879AB5F30CB4A52687C42090A5 /* Pods-CatBounceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceTests-resources.sh"; sourceTree = "<group>"; };
 		3898385256154DCF96F092CA19181AD2 /* Pods-CatBounceUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CatBounceUITests-umbrella.h"; sourceTree = "<group>"; };
 		3968166045186C4637D3148191B08DE0 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
@@ -70,13 +70,13 @@
 		52CAED060E5DA536B6628214292449E2 /* Pods-CatBounceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CatBounceTests-dummy.m"; sourceTree = "<group>"; };
 		5BD2B3C65497223A8E99285258004B5A /* Pods-CatBounceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CatBounceTests-umbrella.h"; sourceTree = "<group>"; };
 		5D479B25A7FC19680A487FE4CB530B14 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
-		63AB16FD564B4F9755AB3E5BE83B5A7A /* Pods_CatBounceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounceUITests.framework; path = "Pods-CatBounceUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AB16FD564B4F9755AB3E5BE83B5A7A /* Pods_CatBounceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatBounceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69A52EFFDDC831FE3ECEC7A23DD52C9A /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
 		7151469C0CB12EB1F2BFD9E7844C990F /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
 		801A134E6D5E4FA666D5B6FCFD0946C2 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		830DB7617980E4A194BD7658E2484A91 /* Pods-CatBounceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CatBounceTests.modulemap"; sourceTree = "<group>"; };
-		8698E7D426609A261F248C30490C5045 /* Pods_CatBounceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounceTests.framework; path = "Pods-CatBounceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830DB7617980E4A194BD7658E2484A91 /* Pods-CatBounceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CatBounceTests.modulemap"; sourceTree = "<group>"; };
+		8698E7D426609A261F248C30490C5045 /* Pods_CatBounceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatBounceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8740C7EBFD26835581969DCDBA892F28 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
 		898D75B253B6E8A84B7D31BF81DD39CD /* Pods-CatBounce-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounce-resources.sh"; sourceTree = "<group>"; };
 		8B63F39DE7480FAAFEE216D84F718E09 /* Pods-CatBounceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceTests-frameworks.sh"; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		8F65D4E5D2617502BABF62D0BE8444A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B355D48EAD2686A55A69BC535C0A17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		915AC5A5596FDD01A90194E7CB1F3C40 /* Pods-CatBounceUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceUITests-resources.sh"; sourceTree = "<group>"; };
-		93014AAC77DE770985A735A368D4E144 /* Pods_CatBounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CatBounce.framework; path = "Pods-CatBounce.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93014AAC77DE770985A735A368D4E144 /* Pods_CatBounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatBounce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AEA79A14F6E6E32E29DE031C271FBE6 /* Pods-CatBounceUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounceUITests-frameworks.sh"; sourceTree = "<group>"; };
 		A13D194ADD0DF84376F3E1AEC70AD905 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		A16F29B3A6D9B656D84615511FE0565A /* Pods-CatBounce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CatBounce-frameworks.sh"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		B5D9566473799A08059F2C1AF5ABE7A4 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		BB39AEE7AC260008234A5A0D244F8354 /* Pods-CatBounceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounceTests.release.xcconfig"; sourceTree = "<group>"; };
 		C57A8BA3716B4DA8811F203F213F9405 /* Pods-CatBounce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CatBounce-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7EF4FB18F426D53D422D53F63B67363 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTCollectionViewWaterfallLayout.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EF4FB18F426D53D422D53F63B67363 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18723066F5625EAF21E8247D55E9C4E /* Pods-CatBounceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3BE5C14587800ECF557C8AC10203A1B /* Pods-CatBounce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CatBounce-umbrella.h"; sourceTree = "<group>"; };
 		D4DF73E9E3D626DD86603CA9958ED3EA /* Pods-CatBounce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CatBounce.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,9 +108,9 @@
 		ECF68623C6C65CD47F2171F13D7474C0 /* Pods-CatBounceUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CatBounceUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE907F98FC0FCC4104A6C451FCFA27F5 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		F40144917F089124906837EDAA2044E4 /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
-		F61A972B2270DF2989750201465198BE /* Pods-CatBounce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CatBounce.modulemap"; sourceTree = "<group>"; };
+		F61A972B2270DF2989750201465198BE /* Pods-CatBounce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CatBounce.modulemap"; sourceTree = "<group>"; };
 		F70475F7E48541A0BBBE53A9208F1884 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		FA8B7B5B4F773D5ECF827D5300344199 /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
+		FA8B7B5B4F773D5ECF827D5300344199 /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,7 +226,6 @@
 				8740C7EBFD26835581969DCDBA892F28 /* PureLayoutDefines.h */,
 				A6EF265A6D272976D9E4BB6D991C7DF7 /* Support Files */,
 			);
-			name = PureLayout;
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
@@ -267,7 +266,6 @@
 				65348A398B34D863CBEF2498487488C3 /* Support Files */,
 				EF2EC6127263E05F2B5EE916DBD1C20F /* Swift */,
 			);
-			name = CHTCollectionViewWaterfallLayout;
 			path = CHTCollectionViewWaterfallLayout;
 			sourceTree = "<group>";
 		};
@@ -479,7 +477,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					2C2F07A9090CCC3876C5FD3CD7A5DE24 = {
+						LastSwiftMigration = 0910;
+					};
+					83DBBCE523C3F780DFE1B689B272DDE8 = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -616,6 +622,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
