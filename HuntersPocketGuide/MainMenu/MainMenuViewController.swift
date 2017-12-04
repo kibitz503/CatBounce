@@ -27,7 +27,7 @@ class MainMenuViewController: UIViewController {
     
     func setupMenuButtons() {
         let button = themeStyles.mainMenuButton(title: "test")
-        
+        button.addTarget(self, action: #selector(launchAnimalIdentifier), for: .touchUpInside)
         view.addSubview(button)
         button.autoAlignAxis(.horizontal, toSameAxisOf: view)
         button.autoAlignAxis(.vertical, toSameAxisOf: view)
@@ -40,9 +40,19 @@ class MainMenuViewController: UIViewController {
 
 }
 
-private typealias ViewFactory = MainMenuViewController
-fileprivate extension ViewFactory {
+fileprivate typealias MainMenuViewFactory = MainMenuViewController
+fileprivate extension MainMenuViewFactory {
     
+    
+}
+
+fileprivate typealias MainMenuActionHandler = MainMenuViewController
+@objc fileprivate extension MainMenuActionHandler {
+    
+    fileprivate func launchAnimalIdentifier() {
+        let animalViewController = AnimalIdentifierViewController.init()
+        self.navigationController?.pushViewController(animalViewController, animated: true)
+    }
     
 }
 

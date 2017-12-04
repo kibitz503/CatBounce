@@ -11,6 +11,7 @@
 		E1BD45234E278822F734A08F /* Pods_CatBounceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93EF422DBF9C07AFEA2C38 /* Pods_CatBounceTests.framework */; };
 		FC8101438564A3827B1C2026 /* Pods_CatBounce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80202C42CF49575BDAA45556 /* Pods_CatBounce.framework */; };
 		FD72953F1F91EDDC00126503 /* Action_Man.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD72953E1F91EDAA00126503 /* Action_Man.ttf */; };
+		FD9653971FD52C0E002A7D72 /* AnimalIdentifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */; };
 		FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA801E99476400B284D8 /* AppDelegate.swift */; };
 		FDB7CA831E99476400B284D8 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA821E99476400B284D8 /* MainMenuViewController.swift */; };
 		FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA871E99476400B284D8 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		F593AFCA192A061741A5F3E4 /* Pods-HuntersPocketGuideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuntersPocketGuideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounceUITests/Pods-HuntersPocketGuideUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD171BBB1EAD132900D9D53E /* HuntersPocketGuide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HuntersPocketGuide-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD72953E1F91EDAA00126503 /* Action_Man.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man.ttf; sourceTree = "<group>"; };
+		FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalIdentifierViewController.swift; sourceTree = "<group>"; };
 		FDB7CA7D1E99476400B284D8 /* HuntersPocketGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuntersPocketGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB7CA801E99476400B284D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB7CA821E99476400B284D8 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FD9653921FD52B3A002A7D72 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				FD9653931FD52B72002A7D72 /* Resources */,
+				FDBAD9F61FD13B3F00FCB5CE /* AppThemeStyles.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		FD9653931FD52B72002A7D72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7CA871E99476400B284D8 /* Assets.xcassets */,
+				FD72953E1F91EDAA00126503 /* Action_Man.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD9653941FD52BCF002A7D72 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7CA821E99476400B284D8 /* MainMenuViewController.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		FD9653951FD52BE3002A7D72 /* AnimalIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */,
+			);
+			path = AnimalIdentifier;
+			sourceTree = "<group>";
+		};
+		FD9653981FD5314E002A7D72 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7CA801E99476400B284D8 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		FDB7CA741E99476400B284D8 = {
 			isa = PBXGroup;
 			children = (
@@ -139,11 +183,10 @@
 		FDB7CA7F1E99476400B284D8 /* HuntersPocketGuide */ = {
 			isa = PBXGroup;
 			children = (
-				FD72953E1F91EDAA00126503 /* Action_Man.ttf */,
-				FDB7CA801E99476400B284D8 /* AppDelegate.swift */,
-				FDB7CA821E99476400B284D8 /* MainMenuViewController.swift */,
-				FDBAD9F61FD13B3F00FCB5CE /* AppThemeStyles.swift */,
-				FDB7CA871E99476400B284D8 /* Assets.xcassets */,
+				FD9653981FD5314E002A7D72 /* AppDelegate */,
+				FD9653951FD52BE3002A7D72 /* AnimalIdentifier */,
+				FD9653941FD52BCF002A7D72 /* MainMenu */,
+				FD9653921FD52B3A002A7D72 /* Themes */,
 				FDB7CA8C1E99476400B284D8 /* Info.plist */,
 			);
 			path = HuntersPocketGuide;
@@ -464,6 +507,7 @@
 				FDBAD9F71FD13B3F00FCB5CE /* AppThemeStyles.swift in Sources */,
 				FDB7CA831E99476400B284D8 /* MainMenuViewController.swift in Sources */,
 				FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */,
+				FD9653971FD52C0E002A7D72 /* AnimalIdentifierViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

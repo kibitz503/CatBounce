@@ -20,7 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
         
-        self.window?.rootViewController = MainMenuViewController()
+        let nav = UINavigationController.init(rootViewController: MainMenuViewController())
+        
+        self.window?.rootViewController = nav
         
         return true
     }
