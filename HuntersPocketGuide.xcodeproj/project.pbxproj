@@ -13,6 +13,12 @@
 		FD72953F1F91EDDC00126503 /* Action_Man.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD72953E1F91EDAA00126503 /* Action_Man.ttf */; };
 		FD9653971FD52C0E002A7D72 /* AnimalIdentifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */; };
 		FD96539A1FD53B77002A7D72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9653991FD53B77002A7D72 /* Default-568h@2x.png */; };
+		FD9653A21FD67F6B002A7D72 /* WesternGraySquirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = FD96539C1FD67F6A002A7D72 /* WesternGraySquirrel.png */; };
+		FD9653A31FD67F6B002A7D72 /* EasternFoxSquirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = FD96539D1FD67F6A002A7D72 /* EasternFoxSquirrel.png */; };
+		FD9653A41FD67F6B002A7D72 /* DouglasSquirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = FD96539E1FD67F6B002A7D72 /* DouglasSquirrel.png */; };
+		FD9653A51FD67F6B002A7D72 /* EasternGraySquirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = FD96539F1FD67F6B002A7D72 /* EasternGraySquirrel.png */; };
+		FD9653A61FD67F6B002A7D72 /* AmericanRedSquirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9653A01FD67F6B002A7D72 /* AmericanRedSquirrel.png */; };
+		FD9653A71FD67F6B002A7D72 /* NorthernFlyingSquirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9653A11FD67F6B002A7D72 /* NorthernFlyingSquirrel.png */; };
 		FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA801E99476400B284D8 /* AppDelegate.swift */; };
 		FDB7CA831E99476400B284D8 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA821E99476400B284D8 /* MainMenuViewController.swift */; };
 		FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB7CA871E99476400B284D8 /* Assets.xcassets */; };
@@ -52,6 +58,12 @@
 		FD72953E1F91EDAA00126503 /* Action_Man.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man.ttf; sourceTree = "<group>"; };
 		FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalIdentifierViewController.swift; sourceTree = "<group>"; };
 		FD9653991FD53B77002A7D72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD96539C1FD67F6A002A7D72 /* WesternGraySquirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WesternGraySquirrel.png; sourceTree = "<group>"; };
+		FD96539D1FD67F6A002A7D72 /* EasternFoxSquirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasternFoxSquirrel.png; sourceTree = "<group>"; };
+		FD96539E1FD67F6B002A7D72 /* DouglasSquirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DouglasSquirrel.png; sourceTree = "<group>"; };
+		FD96539F1FD67F6B002A7D72 /* EasternGraySquirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasternGraySquirrel.png; sourceTree = "<group>"; };
+		FD9653A01FD67F6B002A7D72 /* AmericanRedSquirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AmericanRedSquirrel.png; sourceTree = "<group>"; };
+		FD9653A11FD67F6B002A7D72 /* NorthernFlyingSquirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NorthernFlyingSquirrel.png; sourceTree = "<group>"; };
 		FDB7CA7D1E99476400B284D8 /* HuntersPocketGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuntersPocketGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB7CA801E99476400B284D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB7CA821E99476400B284D8 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
@@ -159,10 +171,24 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		FD96539B1FD67F3F002A7D72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD9653A01FD67F6B002A7D72 /* AmericanRedSquirrel.png */,
+				FD96539E1FD67F6B002A7D72 /* DouglasSquirrel.png */,
+				FD96539D1FD67F6A002A7D72 /* EasternFoxSquirrel.png */,
+				FD96539F1FD67F6B002A7D72 /* EasternGraySquirrel.png */,
+				FD9653A11FD67F6B002A7D72 /* NorthernFlyingSquirrel.png */,
+				FD96539C1FD67F6A002A7D72 /* WesternGraySquirrel.png */,
+				FD9653991FD53B77002A7D72 /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FDB7CA741E99476400B284D8 = {
 			isa = PBXGroup;
 			children = (
-				FD9653991FD53B77002A7D72 /* Default-568h@2x.png */,
+				FD96539B1FD67F3F002A7D72 /* Resources */,
 				FD171BBB1EAD132900D9D53E /* HuntersPocketGuide-Bridging-Header.h */,
 				FDB7CA7F1E99476400B284D8 /* HuntersPocketGuide */,
 				FDB7CA941E99476400B284D8 /* HuntersPocketGuideTests */,
@@ -332,8 +358,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9653A51FD67F6B002A7D72 /* EasternGraySquirrel.png in Resources */,
+				FD9653A21FD67F6B002A7D72 /* WesternGraySquirrel.png in Resources */,
+				FD9653A31FD67F6B002A7D72 /* EasternFoxSquirrel.png in Resources */,
 				FDB7CA881E99476400B284D8 /* Assets.xcassets in Resources */,
+				FD9653A71FD67F6B002A7D72 /* NorthernFlyingSquirrel.png in Resources */,
+				FD9653A61FD67F6B002A7D72 /* AmericanRedSquirrel.png in Resources */,
 				FD72953F1F91EDDC00126503 /* Action_Man.ttf in Resources */,
+				FD9653A41FD67F6B002A7D72 /* DouglasSquirrel.png in Resources */,
 				FD96539A1FD53B77002A7D72 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
