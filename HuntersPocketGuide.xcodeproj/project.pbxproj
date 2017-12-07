@@ -25,6 +25,11 @@
 		FDB7CA961E99476400B284D8 /* HuntersPocketGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CA951E99476400B284D8 /* HuntersPocketGuideTests.swift */; };
 		FDB7CAA11E99476400B284D8 /* HuntersPocketGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7CAA01E99476400B284D8 /* HuntersPocketGuideUITests.swift */; };
 		FDBAD9F71FD13B3F00FCB5CE /* AppThemeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBAD9F61FD13B3F00FCB5CE /* AppThemeStyles.swift */; };
+		FDD12C041FD8DD4600D92FD6 /* AnimalSpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD12C031FD8DD4600D92FD6 /* AnimalSpeciesView.swift */; };
+		FDD12C071FD8DE0D00D92FD6 /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD12C061FD8DE0D00D92FD6 /* UIView+extensions.swift */; };
+		FDD12C091FD8E0CC00D92FD6 /* AnimalSpeciesViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD12C081FD8E0CC00D92FD6 /* AnimalSpeciesViewFactory.swift */; };
+		FDD12C0B1FD8E13E00D92FD6 /* CollectionViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD12C0A1FD8E13E00D92FD6 /* CollectionViewSection.swift */; };
+		FDD12C0D1FD8EBB600D92FD6 /* AnimalSpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD12C0C1FD8EBB600D92FD6 /* AnimalSpeciesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +81,11 @@
 		FDB7CAA01E99476400B284D8 /* HuntersPocketGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntersPocketGuideUITests.swift; sourceTree = "<group>"; };
 		FDB7CAA21E99476400B284D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBAD9F61FD13B3F00FCB5CE /* AppThemeStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeStyles.swift; sourceTree = "<group>"; };
+		FDD12C031FD8DD4600D92FD6 /* AnimalSpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSpeciesView.swift; sourceTree = "<group>"; };
+		FDD12C061FD8DE0D00D92FD6 /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
+		FDD12C081FD8E0CC00D92FD6 /* AnimalSpeciesViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSpeciesViewFactory.swift; sourceTree = "<group>"; };
+		FDD12C0A1FD8E13E00D92FD6 /* CollectionViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSection.swift; sourceTree = "<group>"; };
+		FDD12C0C1FD8EBB600D92FD6 /* AnimalSpeciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSpeciesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +168,9 @@
 		FD9653951FD52BE3002A7D72 /* AnimalIdentifier */ = {
 			isa = PBXGroup;
 			children = (
+				FDD12C0E1FD8EBBF00D92FD6 /* Views */,
 				FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */,
+				FDD12C081FD8E0CC00D92FD6 /* AnimalSpeciesViewFactory.swift */,
 			);
 			path = AnimalIdentifier;
 			sourceTree = "<group>";
@@ -188,6 +200,7 @@
 		FDB7CA741E99476400B284D8 = {
 			isa = PBXGroup;
 			children = (
+				FDD12C051FD8DDE800D92FD6 /* Utilities */,
 				FD96539B1FD67F3F002A7D72 /* Resources */,
 				FD171BBB1EAD132900D9D53E /* HuntersPocketGuide-Bridging-Header.h */,
 				FDB7CA7F1E99476400B284D8 /* HuntersPocketGuide */,
@@ -237,6 +250,24 @@
 				FDB7CAA21E99476400B284D8 /* Info.plist */,
 			);
 			path = HuntersPocketGuideUITests;
+			sourceTree = "<group>";
+		};
+		FDD12C051FD8DDE800D92FD6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FDD12C061FD8DE0D00D92FD6 /* UIView+extensions.swift */,
+				FDD12C0A1FD8E13E00D92FD6 /* CollectionViewSection.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FDD12C0E1FD8EBBF00D92FD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDD12C0C1FD8EBB600D92FD6 /* AnimalSpeciesModel.swift */,
+				FDD12C031FD8DD4600D92FD6 /* AnimalSpeciesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,10 +574,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD12C071FD8DE0D00D92FD6 /* UIView+extensions.swift in Sources */,
+				FDD12C091FD8E0CC00D92FD6 /* AnimalSpeciesViewFactory.swift in Sources */,
+				FDD12C0B1FD8E13E00D92FD6 /* CollectionViewSection.swift in Sources */,
 				FDBAD9F71FD13B3F00FCB5CE /* AppThemeStyles.swift in Sources */,
 				FDB7CA831E99476400B284D8 /* MainMenuViewController.swift in Sources */,
+				FDD12C0D1FD8EBB600D92FD6 /* AnimalSpeciesModel.swift in Sources */,
 				FDB7CA811E99476400B284D8 /* AppDelegate.swift in Sources */,
 				FD9653971FD52C0E002A7D72 /* AnimalIdentifierViewController.swift in Sources */,
+				FDD12C041FD8DD4600D92FD6 /* AnimalSpeciesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@ import CHTCollectionViewWaterfallLayout
 class AnimalIdentifierViewController: UIViewController, CHTCollectionViewDelegateWaterfallLayout, UICollectionViewDelegate, UICollectionViewDataSource {
     
     let reuseIdentifier = "test"
+    let layout = CHTCollectionViewWaterfallLayout.init()
     
     public init() {
         super.init(nibName: nil, bundle: nil)
@@ -27,8 +28,8 @@ class AnimalIdentifierViewController: UIViewController, CHTCollectionViewDelegat
     }
     
     func setupView() {
+        
         view.backgroundColor = UIColor.red
-        let layout = CHTCollectionViewWaterfallLayout.init()
         let collectionView = UICollectionView.init(frame: .zero, collectionViewLayout: layout)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.delegate = self
@@ -60,38 +61,22 @@ class AnimalIdentifierViewController: UIViewController, CHTCollectionViewDelegat
         
 //        cell.translatesAutoresizingMaskIntoConstraints = false
 
-        var image: UIImage? = nil
-        if indexPath.row == 0 {
-            image = UIImage(named: "AmericanRedSquirrel.png")
-        } else if indexPath.row % 7 == 0 {
-            image = UIImage(named: "DouglasSquirrel.png")
-        } else if indexPath.row % 5 == 0 {
-            image = UIImage(named: "EasternFoxSquirrel.png")
-        } else if indexPath.row % 3 == 0 {
-            image = UIImage(named: "EasternGraySquirrel.png")
-        } else if indexPath.row % 2 == 0 {
-            image = UIImage(named: "NorthernFlyingSquirrel.png")
-        } else {
-            image = UIImage(named: "WesternGraySquirrel.png")
-        }
-        
-        let imageView = UIImageView(image: image!)
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFill
-        cell.contentView.addSubview(imageView)
-        imageView.autoPinEdgesToSuperviewMargins()
         return cell
     }
     
     // MARK: CHTCollectionViewDelegateWaterfallLayout
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
-        let unwrapedCell = collectionView.cellForItem(at: indexPath)
+//        let cell = self.collectionView(collectionView, cellForItemAt: indexPath)
         
-        if let cell = unwrapedCell {
-            let size = CGSize.init(width: collectionView.frame.size.width, height:cell.systemLayoutSizeFitting(UILayoutFittingCompressedSize).height )
+       
+        
+            //Make wrapper view for images, get height for width
+            let height = wrapperView.systemLayoutSizeFitting(UILayoutFittingCompressedSize).height
+            let size = CGSize.init(width: layout.itemWidthInSectionAtIndex(indexPath.section), height: height)
             return size
-        }
+//        }
         
-        return CGSize.init(width: collectionView.frame.size.width, height: 100)
     }
+    
+    
 }
