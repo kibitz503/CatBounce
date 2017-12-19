@@ -12,7 +12,7 @@ import UIKit
 public class CollectionViewSection {
     var header: UIView?
     var footer: UIView?
-    let cells: [UIView]!
+    var cells: [UIView]!
     
     init() {
         self.cells = [];

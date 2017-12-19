@@ -15,13 +15,14 @@ public class AnimalSpeciesViewFactory {
     
     public func animalsForDisplay() -> [CollectionViewSection] {
         var sections: [CollectionViewSection]
-        var section = CollectionViewSection.init()
+        let section = CollectionViewSection.init()
         
         for value in 0 ... 100 {
-            
+            let model = AnimalSpeciesModel()
             let image = imageGenerator(value: value)
-            let view = view(image: image)
-            section.cells.append(view)
+            model.image = image;
+            
+            section.cells.append(AnimalSpeciesView.init(model: model))
         }
         
         
@@ -30,7 +31,7 @@ public class AnimalSpeciesViewFactory {
     }
     
     func imageGenerator(value: Int) -> UIImage {
-        var image: UIImage? = nil
+        var image: UIImage!
         
         if value == 0 {
             image = UIImage(named: "AmericanRedSquirrel.png")
@@ -47,10 +48,6 @@ public class AnimalSpeciesViewFactory {
         }
         
         return image
-    }
-    
-    func view(image: UIImage) -> AnimalSpeciesView {
-        
     }
     
 }

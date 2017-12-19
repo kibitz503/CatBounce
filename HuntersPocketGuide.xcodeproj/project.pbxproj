@@ -10,6 +10,7 @@
 		5615F54D777736F704A4C094 /* Pods_CatBounceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8581E347A9C1900698CD0 /* Pods_CatBounceUITests.framework */; };
 		E1BD45234E278822F734A08F /* Pods_CatBounceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93EF422DBF9C07AFEA2C38 /* Pods_CatBounceTests.framework */; };
 		FC8101438564A3827B1C2026 /* Pods_CatBounce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80202C42CF49575BDAA45556 /* Pods_CatBounce.framework */; };
+		FD0DE8401E1884E900023A0D /* CollectionViewCellWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0DE83F1E1884E900023A0D /* CollectionViewCellWrapper.swift */; };
 		FD72953F1F91EDDC00126503 /* Action_Man.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD72953E1F91EDAA00126503 /* Action_Man.ttf */; };
 		FD9653971FD52C0E002A7D72 /* AnimalIdentifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */; };
 		FD96539A1FD53B77002A7D72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9653991FD53B77002A7D72 /* Default-568h@2x.png */; };
@@ -59,6 +60,7 @@
 		80202C42CF49575BDAA45556 /* Pods_CatBounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatBounce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B0168DE1735C47385D64BE /* Pods-HuntersPocketGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuntersPocketGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounce/Pods-HuntersPocketGuide.debug.xcconfig"; sourceTree = "<group>"; };
 		F593AFCA192A061741A5F3E4 /* Pods-HuntersPocketGuideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuntersPocketGuideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatBounceUITests/Pods-HuntersPocketGuideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD0DE83F1E1884E900023A0D /* CollectionViewCellWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellWrapper.swift; sourceTree = "<group>"; };
 		FD171BBB1EAD132900D9D53E /* HuntersPocketGuide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HuntersPocketGuide-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD72953E1F91EDAA00126503 /* Action_Man.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man.ttf; sourceTree = "<group>"; };
 		FD9653961FD52C0E002A7D72 /* AnimalIdentifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalIdentifierViewController.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			children = (
 				FDD12C061FD8DE0D00D92FD6 /* UIView+extensions.swift */,
 				FDD12C0A1FD8E13E00D92FD6 /* CollectionViewSection.swift */,
+				FD0DE83F1E1884E900023A0D /* CollectionViewCellWrapper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 			files = (
 				FDD12C071FD8DE0D00D92FD6 /* UIView+extensions.swift in Sources */,
 				FDD12C091FD8E0CC00D92FD6 /* AnimalSpeciesViewFactory.swift in Sources */,
+				FD0DE8401E1884E900023A0D /* CollectionViewCellWrapper.swift in Sources */,
 				FDD12C0B1FD8E13E00D92FD6 /* CollectionViewSection.swift in Sources */,
 				FDBAD9F71FD13B3F00FCB5CE /* AppThemeStyles.swift in Sources */,
 				FDB7CA831E99476400B284D8 /* MainMenuViewController.swift in Sources */,

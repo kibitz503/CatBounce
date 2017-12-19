@@ -11,24 +11,50 @@ import UIKit
 
 
 public class AnimalSpeciesView: UIView {
-    
-    public var model: AnimalSpeciesModel!
+    private var featuredImageView: UIImageView?
+    private var model: AnimalSpeciesModel?
     
     public init(model: AnimalSpeciesModel) {
+        
         self.model = model
         
-        super.init()
+        
+        super.init(frame:.zero)
+        self.translatesAutoresizingMaskIntoConstraints = false
+        self.loadModel(model: model)
     }
     
-    public func viewForImage(indexPath: UIimage) -> AnimalSpeciesView {
-        let imageView = UIImageView(image: image!)
+   public  required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    public func loadModel(model: AnimalSpeciesModel) {
+        if let image = model.image {
+            loadImage(image: image)
+        }
+    }
+    
+    private func loadImage(image: UIImage) {
+        if let featuredImageView = featuredImageView {
+            featuredImageView.removeFromSuperview()
+        }
+        let imageView = UIImageView(image: image)
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         self.addSubview(imageView)
         imageView.autoPinEdgesToSuperviewEdges()
-        imageView.setContentCompressionResistancePriority(.required, for: .vertical)
-        imageView.setContentCompressionResistancePriority(.fittingSizeLevel, for: .horizontal)
+//        imageView.setContentCompressionResistancePriority(.fittingSizeLevel, for: .vertical)
+//        imageView.setContentCompressionResistancePriority(.fittingSizeLevel, for: .horizontal)
         
-        return imageView
+        featuredImageView = imageView
+    }
+    
+    public override func height(forWidth width: CGFloat) -> CGFloat {
+        if let featuredImageView = featuredImageView {
+             return featuredImageView.height(forWidth: width)
+        } else {
+            return 0
+        }
+       
     }
 }

@@ -13,6 +13,8 @@ class AnimalIdentifierViewController: UIViewController, CHTCollectionViewDelegat
     
     let reuseIdentifier = "test"
     let layout = CHTCollectionViewWaterfallLayout.init()
+    let viewFactory = AnimalSpeciesViewFactory()
+    var sections: [CollectionViewSection]?
     
     public init() {
         super.init(nibName: nil, bundle: nil)
@@ -25,6 +27,7 @@ class AnimalIdentifierViewController: UIViewController, CHTCollectionViewDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        sections = viewFactory.animalsForDisplay()
     }
     
     func setupView() {
@@ -38,7 +41,7 @@ class AnimalIdentifierViewController: UIViewController, CHTCollectionViewDelegat
         self.view.addSubview(collectionView)
         collectionView.autoPinEdgesToSuperviewMargins()
         
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        collectionView.register(CollectionViewCellWrapper.self, forCellWithReuseIdentifier: reuseIdentifier)
     }
     
     // MARK: UICollectionViewDelegate
@@ -48,35 +51,44 @@ class AnimalIdentifierViewController: UIViewController, CHTCollectionViewDelegat
     
     // MARK: UICollectionViewDataSource
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
+        if let sections = sections {
+            return sections.count
+        } else {
+            return 0
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 100
+        if let sections = sections, sections.count >= section {
+            return sections[section].cells.count
+        } else {
+            return 0
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as UICollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CollectionViewCellWrapper
         
-//        cell.translatesAutoresizingMaskIntoConstraints = false
-
-        return cell
+        if let sections = sections, sections.count >= indexPath.section, sections[indexPath.section].cells.count >= indexPath.row {
+            let view = sections[indexPath.section].cells[indexPath.row]
+            cell.loadInternalView(view: view)
+        }
+        
+        return cell;
     }
     
     // MARK: CHTCollectionViewDelegateWaterfallLayout
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
-//        let cell = self.collectionView(collectionView, cellForItemAt: indexPath)
         
-       
-        
-            //Make wrapper view for images, get height for width
-            let height = wrapperView.systemLayoutSizeFitting(UILayoutFittingCompressedSize).height
-            let size = CGSize.init(width: layout.itemWidthInSectionAtIndex(indexPath.section), height: height)
+        if let sections = sections, sections.count >= indexPath.section, sections[indexPath.section].cells.count >= indexPath.row {
+            let view = sections[indexPath.section].cells[indexPath.row]
+            let rowWidth = layout.itemWidthInSectionAtIndex(indexPath.section)
+            let height = view.height(forWidth: rowWidth)
+            let size = CGSize.init(width: rowWidth, height: height)
             return size
-//        }
-        
+        } else {
+            return .zero
+        }
     }
-    
-    
 }

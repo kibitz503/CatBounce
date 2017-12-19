@@ -12,17 +12,44 @@ import PureLayout
 
 extension UIView {
     
-    public func height(width: CGFloat) -> CGFloat {
+    @objc public func height(forWidth width: CGFloat) -> CGFloat {
         let constraint = autoSetDimension(.width, toSize: width)
-        constraint.priority = .defaultHigh;
+        constraint.priority = .required;
         
-        self.addConstraint(constraint)
+        addConstraint(constraint)
+        setNeedsLayout()
+        layoutIfNeeded()
         
-        let height = self.systemLayoutSizeFitting(UILayoutFittingCompressedSize).height
+        let size = self.systemLayoutSizeFitting(UILayoutFittingCompressedSize)
+        
+        let preferredSize = systemLayoutSizeFitting(size,
+                                                    withHorizontalFittingPriority: .defaultHigh,
+                                                    verticalFittingPriority: .fittingSizeLevel)
+        
+        
         
         removeConstraint(constraint)
         
-        return height;
+        return preferredSize.height;
     }
     
+}
+
+extension UIImageView {
+    @objc public override func height(forWidth width: CGFloat) -> CGFloat {
+        guard width > 0 else {
+            return 0
+        }
+        
+        let originalSize = self.systemLayoutSizeFitting(UILayoutFittingCompressedSize)
+        
+        let ratio = originalSize.width/width
+        
+        guard ratio > 0 else {
+            return 0
+        }
+        
+        let adjustedHeight = originalSize.height/ratio
+        return adjustedHeight
+    }
 }
